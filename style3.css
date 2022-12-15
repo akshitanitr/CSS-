@@ -1,5 +1,9 @@
 body {
     background: #fabfbb;
+    font-size: 0.8cm;
+    text-transform: capitalize;
+    text-align: justify;
+    font-family: "Nunito Sans";
 }
 #title {
     color: #d6463c;
@@ -7,4 +11,22 @@ body {
 
 .subtitle {
     color: rgb(237, 91, 81);
+}
+
+#service-image {
+    height: 400px;
+    width: 70%;
+
+    background: linear-gradient(to right, red, blue);
+    border: 10px solid rgb(102, 15, 36);
+    
+}
+
+.link {
+    text-decoration: underline;
+}
+
+#about-us-image {
+    height: 1000px;
+    width: 60vw;
 }
