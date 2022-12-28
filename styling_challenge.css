@@ -1,0 +1,89 @@
+/* Primary font - Raleway
+secondary font - Nanum Gothic 
+bg - 216, 131, 115
+font color - 245, 226, 200
+*/
+
+/*font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+#main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 50px;
+}
+
+body {
+    background: rgba(216, 131, 115, 0.5);
+}
+p {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+li {
+    font-family: 'Nanum Gothic', sans-serif;
+}  
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.image-grid > img {
+    margin: 10px ;
+}
+
+#image-1 {
+    float: right;
+    margin: 15px;
+    height: 300px;
+}
+
+.post {
+    border: 2px solid rgb(181, 82, 63);
+    margin: 10px;
+}
+.post-text {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.post > a {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: brown;
+    transition: 0.5ms color;
+}
+
+.post > a:hover {
+    color: rgb(83, 18, 4);
+}
+
+img:hover {
+    height: 600px;
+    width: 600px;
+    transition: 0.5s all;
+}
+
+.content {
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+.sidebar {
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+@keyframes fade-in {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
